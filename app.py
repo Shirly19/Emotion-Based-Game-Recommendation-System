@@ -1,5 +1,5 @@
 from flask import Flask, render_template, Response, jsonify, request
-from camera import get_current_emotion, get_emotion_history
+from camera import VideoCamera, get_current_emotion, get_emotion_history
 import time
 import pymysql
 import uuid
